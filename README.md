@@ -12,7 +12,7 @@ A WhatsApp based third party application that provide many services with a real-
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=Q30fa02&center=true&vCenter=true&multiline=false&lines=KING+QUEEN-MD+WHATSAPP+BOT" alt="">
 
 <p align="center">
- <a href="https://github.com/Lakshan2002924/"><img title="Author" src="https://img.shields.io/badge/CREATOR-DRAK SHANU OFFICIAL²⁰²³-green.svg?style=for-the-badge&logo=github"></a>
+ <a href="https://github.com/DARK-SHANU/"><img title="Author" src="https://img.shields.io/badge/CREATOR-DRAK SHANU OFFICIAL²⁰²³-green.svg?style=for-the-badge&logo=github"></a>
 
 *KING QUEEN* is an user bot for WhatsApp that allowing you to get done so many tasks. This project mainly focusing on make user's work easy. This project coded with Javascript and Docker. And using *[Baileys](https://github.com/adiwajshing/Baileys)* as the WA Web API. Developer or Team members are not responsible for your usage mistakes and not using wisely. Also, you have no authorities do any modifications to this project. Enjoy!
 
@@ -49,7 +49,7 @@ A WhatsApp based third party application that provide many services with a real-
 <br>
 
 <p align="center">
-<a href="https://github.com/Lakshan2002924/King-Queen/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="fork King-Queen" height="65" width="170" /></a>
+<a href="https://github.com/DARK-SHANU/King-Queen/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="fork King-Queen" height="65" width="170" /></a>
 
  <p align="center">  
 <a href="https://qr.raganork.tk/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="65" width="170" /></a>
@@ -103,11 +103,11 @@ You can join our Beta Testing WhatsApp Group by this invite link
       
  <a href="https://github.com/Lakshan2002924"><img src="https://avatars.githubusercontent.com/u/e?email=myemail@mycompany.com&s=64" width=80 height=80></a>    
 
-|**[DRAK SHANU](https://github.com/Lakshan2002924)**|
+|**[DRAK SHANU](https://github.com/DARK-SHANU)**|
 
 ## License
 
-![license](https://img.shields.io/github/license/Lakshan2002924/King-Queen?color=green&label=License&style=plastic)
+![license](https://img.shields.io/github/license/DARK-SHANU/King-Queen?color=green&label=License&style=plastic)
 
 This project is protected by the GNU General Public License v3.0.
 Do not edit copyright messages!
