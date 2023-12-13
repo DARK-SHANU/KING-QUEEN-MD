@@ -1,7 +1,7 @@
-# KING-QUEEN-MD
+# KING QUEEN-MD
 A WhatsApp based third party application that provide many services with a real-time automated conversational experience. 💃🏻❤️
 
-## *KING QUEEN-MD♥* - A Javascript 💃 WhatsApp User Bot🤖
+## *KING QUEEN-MD* - A Javascript 💃 WhatsApp User Bot🤖
 
 A WhatsApp based third party application that provide many services with a real-time automated conversational experience.
 
@@ -9,7 +9,7 @@ A WhatsApp based third party application that provide many services with a real-
 <u>🤖ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ🤖</u>
 
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=Q30fa02&center=true&vCenter=true&multiline=false&lines=KING+QUEEN+MD+WHATSAPP+BOT" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=Q30fa02&center=true&vCenter=true&multiline=false&lines=KING+QUEEN-MD+WHATSAPP+BOT" alt="">
 
 <p align="center">
  <a href="https://github.com/Lakshan2002924/"><img title="Author" src="https://img.shields.io/badge/CREATOR-DRAK SHANU OFFICIAL²⁰²³-green.svg?style=for-the-badge&logo=github"></a>
@@ -22,7 +22,7 @@ A WhatsApp based third party application that provide many services with a real-
 </h1>
 
 <p align="center"> 
-<b>Hello, I am "KING QUEEN" an Opensource WhatsApp bot made by <a href="https://github.com/Lakshan2002924">𝙳𝚁𝙰𝙺 𝚂𝙷𝙰𝙽𝚄</a> and his team "KING QUEEN" to do everything that's beyond imagination with highest <b>Features</b> and <b>Stability</b> and <b>Compatibility</b> built with Baileys Multi Device support. 
+<b>Hello, I am "KING QUEEN" an Opensource WhatsApp bot made by <a href="https://github.com/DARK-SHANU">𝙳𝚁𝙰𝙺 𝚂𝙷𝙰𝙽𝚄</a> and his team "KING QUEEN" to do everything that's beyond imagination with highest <b>Features</b> and <b>Stability</b> and <b>Compatibility</b> built with Baileys Multi Device support. 
   
 <br>
 
