@@ -11,6 +11,8 @@ A WhatsApp based third party application that provide many services with a real-
 <p align="center"> 
 <u>🤖ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ🤖</u>
 
+<p align = center>   <img src="https://telegra.ph/file/7accae80e62718200df1b.jpg" alt="GIF" width="600" height="300"/> </p>
+
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=Q30fa02&center=true&vCenter=true&multiline=false&lines=KING+QUEEN-MD+WHATSAPP+BOT" alt="">
 
@@ -102,7 +104,7 @@ You can join our Beta Testing WhatsApp Group by this invite link
  
 ## **``KING-QUEEN TEAM BOT OWNERS``,**  [`` Since 2023`` ]
 
- <a href="https://github.com/DARK-SHANU"><img src="https://telegra.ph/file/c670792adfe0d44dc5a99.jpg" width=90 height=90></a>   
+ <a href="https://github.com/DARK-SHANU"><img src="https://telegra.ph/file/fbea848beb08afe26adf8.jpg" width=90 height=90></a>   
 
  |**[DRAK SHANU](https://github.com/DARK-SHANU/)**|</br>Founder & Developer</br> | 
 
