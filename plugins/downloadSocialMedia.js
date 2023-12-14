@@ -56,7 +56,6 @@ AMDI({ cmd: ["ig", "insta", "instagram"], desc: Lang.igDesc, example: Lang.igEXA
 
 AMDI({ cmd: ["tk", "tiktok"], 
       
-
 import fg from 'api-dylux' 
 import { tiktokdl, tiktokdlv2, tiktokdlv3 } from '@bochilteam/scraper'
 
@@ -96,48 +95,6 @@ handler.diamond = false
 
 export default handler
       
-      
-      
-      desc: Lang.TKDESC, example: Lang.tkEXA, type: "download", react: "🏳‍🌈" }, (async (amdiWA) => {
-    let { input, prefix, reply, sendListMsg } = amdiWA.msgLayout;
-
-    if (!input) return await reply(Lang.needlink, '❓');
-    if (!input.includes('tiktok.com/')) return await reply(Lang.needlink, '❓');
-
-    const tkData = await tiktok({ url: input });
-
-    const TKText = \\\${tkData.video.signature}\\\\n\n🎵 Music: ${tkData.audio.name}\n\n👨🏻‍🎤 Author: ${tkData.owner.name}\n\n👤 Username: ${tkData.owner.username}
-
-    const sections = [
-        {
-            title: "Tiktok Information",
-            rows: [
-                { title: "ℹ Tiktok Information", rowId: ${prefix}tkinfo ${input} }
-            ]
-        },
-        {
-            title: "Tiktok Video",
-            rows: [
-                { title: "🔖 With Watermark", rowId: ${prefix}tkdl mark ${input} },
-                { title: "📼 No-Watermark", rowId: ${prefix}tkdl nomark ${input} }
-            ]
-        },
-        {
-            title: "Tiktok Audio",
-            rows: [
-                { title: "🎶 Audio File", rowId: ${prefix}tkdl audio ${input} },
-                { title: "📁 Document File", rowId: ${prefix}tkdl doc ${input} }
-            ]
-        }
-    ]
-
-    var listInfo = {}
-    listInfo.title = "🎞 Tiktok Downloader"
-    listInfo.text = TKText
-    listInfo.buttonTXT = "Download now"
-
-    return await sendListMsg(listInfo, sections);
-}));
 
 AMDI({ cmd: ["mediafire", "mf", "mfire"], desc: Lang.MEDIAFIRE_DESC, type: "download", react: "🔥" }, (async (amdiWA) => {
     let { footerTXT, input, react, reply, sendDocument } = amdiWA.msgLayout;
