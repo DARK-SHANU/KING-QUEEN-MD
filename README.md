@@ -102,10 +102,10 @@ You can join our Beta Testing WhatsApp Group by this invite link
 <br>
  
 ## **``KING-QUEEN TEAM BOT OWNERS``,**  [`` Since 2023`` ]
-  
- <a href="https://github.com/DARK-SHANU"><img src="https://avatars.githubusercontent.com/u/e?email=myemail@mycompany.com&s=64" width=80 height=80></a>    
 
-|**[DRAK SHANU](https://github.com/DARK-SHANU)**|
+ <a href="https://github.com/DARK-SHANU"><img src="https://telegra.ph/file/c670792adfe0d44dc5a99.jpg" width=90 height=90></a>   
+
+ |**[DRAK SHANU](https://github.com/DARK-SHANU/)**|</br>Founder & Developer</br> | 
 
 <p align="center">
   <a href="https://www.youtube.com/channel/UCqiWK28iiWJFmuYr3IDmJWQ"><img title="Youtube Videos" src="https://github.com/Alien-alfa/Alien-alfa/blob/beta/MD-Images/yt.png?raw=true" width="50"/></a>
