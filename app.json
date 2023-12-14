@@ -12,22 +12,22 @@
     ],
     "env": {
         "SESSION_ID": {
-            "description": "Type the Session-ID you got from scaning QR",
+            "description": "cyber-x@;;;gRUilCBK#Rx6p37HNIlvxTU1egRo_XBwL8rtCrT714rBqCc6WcD8",
             "required": true,
             "value": ""
         },
         "HEROKU_API_KEY": {
-            "description": "Enter your heroku account api key",
+            "description": "0b269e67-a3d2-44b1-b407-ca2f58bca65b",
             "required": true,
             "value": ""
         },
         "HEROKU_APP_NAME": {
-            "description": "Enter you pushed app Name",
+            "description": "cyberx10",
             "required": true,
             "value": ""
         },
         "WORK_TYPE": {
-            "description": "Add the worktype of the Bot ( private , public , only_group )",
+            "description": "private",
             "required": true,
             "value": "private"
         }
