@@ -77,6 +77,9 @@ You can join our Beta Testing WhatsApp Group by this invite link
 ## » `Support Group`
 [![WHATSAPP](https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GMwn9PwtjlCG5BciExDXIU) 
 
+
+***
+<a href="https://whatsapp.com/channel/0029Va4OxFAGk1FjrFvTJa1V"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Channel-white?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
 <br>
 <br>
 
