@@ -1,5 +1,9 @@
 # KING QUEEN-MD
 
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Rubik+Dirt&size=65&pause=1000&color=F72C3F&background=FF20A500&center=true&vCenter=true&width=1000&height=150&lines=𝙳𝚁𝙰𝙺+𝚂𝙷𝙰𝙽𝚄;New+Beginning+Developer;Please+Support+Me;" alt="Typing SVG" 
+<br>
+
 ## *KING QUEEN-MD* - A Javascript 💃 WhatsApp User Bot🤖
 
 A WhatsApp based third party application that provide many services with a real-time automated conversational experience.
