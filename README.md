@@ -78,8 +78,7 @@ You can join our Beta Testing WhatsApp Group by this invite link
 <br>
 <br>
 
-## <p align="center"><b>`DEPLOY PLAT FORM`</b></p>
-
+## <p align="center"><b> ``DEPLOY PLAT FORM`` </b></p>
 
 ### For Railway deployers:
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/2B1VYo)
