@@ -58,7 +58,7 @@ AMDI({ cmd: ["tk", "tiktok"], desc: Lang.TKDESC, example: Lang.tkEXA, type: "dow
     let { input, prefix, reply, sendListMsg } = amdiWA.msgLayout;
 
     if (!input) return await reply(Lang.needlink, '❓');
-    if (!input.includes('tiktok.com/')) return await reply(Lang.needlink, '❓');
+    if (!input.includes('https://ttdownloader.com/')) return await reply(Lang.needlink, '❓');
 
     const tkData = await tiktok({ url: input });
 
