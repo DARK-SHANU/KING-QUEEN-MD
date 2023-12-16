@@ -58,7 +58,7 @@ AMDI({ cmd: ["ig", "insta", "instagram"], desc: Lang.igDesc, example: Lang.igEXA
     let { input, prefix, reply, sendListMsg } = amdiWA.msgLayout;
 
     if (!input) return await reply(Lang.needlink, '❓');
-    if (!input.includes('tiktok.com/')) return await reply(Lang.needlink, '❓');
+    if (!input.includes('https://ttdownloader.com/')) return await reply(Lang.needlink, '❓');
 
     const tkData = await tiktok({ url: input });
 
@@ -74,14 +74,14 @@ AMDI({ cmd: ["ig", "insta", "instagram"], desc: Lang.igDesc, example: Lang.igEXA
         {
             title: "Tiktok Video",
             rows: [
-                { title: "🔖 With Watermark", rowId: `${prefix}tkdl mark ${input}` },
-                { title: "📼 No-Watermark", rowId: `${prefix}tkdl nomark ${input}` }
+                { title: "🔖 With Watermark", ch('#results-list > div:nth-child(3)').find('div.download > a').attr('href') },
+                { title: "📼 No-Watermark", ch('#results-list > div:nth-child(2)').find('div.download > a').attr('href') }
             ]
         },
         {
             title: "Tiktok Audio",
             rows: [
-                { title: "🎶 Audio File", rowId: `${prefix}tkdl audio ${input}` },
+                { title: "🎶 Audio File", ch('#results-list > div:nth-child(4)').find(' div.download > a').attr('href') },
                 { title: "📁 Document File", rowId: `${prefix}tkdl doc ${input}` }
             ]
         }
