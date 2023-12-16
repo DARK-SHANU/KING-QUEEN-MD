@@ -57,7 +57,7 @@ A WhatsApp based third party application that provide many services with a real-
 <a href="https://github.com/DARK-SHANU/King-Queen/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="fork King-Queen" height="65" width="170" /></a>
 
  <p align="center">  
-<a href="https://qr.raganork.tk/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="65" width="170" /></a>
+ <a href='https://replit.com/@naveeddogar/KING-MD-QR?v=1' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Scan Qr code-black?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 
 <p align="center">
