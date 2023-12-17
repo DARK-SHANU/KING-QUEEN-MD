@@ -1,7 +1,7 @@
 # KING QUEEN-MD
 
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Rubik+Dirt&size=65&pause=1000&color=F72c3F&background=FF20A500&center=true&vCenter=true&width=1000&height=150&lines=𝙳𝚁𝙰𝙺+𝚂𝙷𝙰𝙽𝚄;New+Beginning+Developer;2+0+2+3;" alt="Typing SVG" 
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Rubik+Dirt&size=65&pause=1000&color=F72c3F&background=FF20A500&center=true&vCenter=true&width=1000&height=150&lines=𝙳𝚁𝙰𝙺+𝚂𝙷𝙰𝙽𝚄;New+Beginning+Developer;2+0+2+4;" alt="Typing SVG" 
 <br>
 
 ## *KING QUEEN-MD* - A Javascript 💃 WhatsApp User Bot🤖
