@@ -32,7 +32,7 @@
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "❤️,LyFE"
+      "value": "💃KING QUEEN-MD,"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
