@@ -17,10 +17,29 @@
             "required": true,
             "value": "YES"
         },
+          "ALWAYS_ONLINE": {
+      "description": "show bot number last seen as online",
+      "required": false,
+      "value": "false"
+        },
         "HEROKU_APP_NAME": {
             "description": "Use the same App name as first.",
             "required": true
         },
+          "HEROKU_API_KEY": {
+      "description": "Heroku account api key, https://dashboard.heroku.com/account",
+      "required": true
+        },
+            "PREFIX": {
+      "description": "prefix, check for more",
+      "required": false,
+      "value": "."
+       },
+    "SESSION_ID": {
+      "description": "session id",
+      "required": true,
+      "value": ""
+        },      
         "LANGUAGE": {
             "description": "Bot language",
             "required": true,
