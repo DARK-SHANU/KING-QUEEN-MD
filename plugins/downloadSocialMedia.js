@@ -54,87 +54,46 @@ AMDI({ cmd: ["ig", "insta", "instagram"], desc: Lang.igDesc, example: Lang.igEXA
 }));
 
 
-const QueenAmdi = require('queenamdi-public');
-const Amdi = QueenAmdi.events
-const Build = QueenAmdi.build
-// const tk = require('tiktok-scraper');
-const {MessageType,Mimetype} = require('@blackamda/queenamdi-web-api');
-const axios = require('axios');
+AMDI({ cmd: ["tk", "tiktok"], desc: Lang.TKDESC, example: Lang.tkEXA, type: "download", react: "🏳‍🌈" }, (async (amdiWA) => {
+    let { input, prefix, reply, sendListMsg } = amdiWA.msgLayout;
 
-// Strings
-const Language = require('../language');
-const Lang = Language.getString('tiktok');
-let LOL = Build.WORKTYPE == 'public' ? false : true
+    if (!input) return await reply(Lang.needlink, '❓');
+    if (!input.includes('tiktok.com/')) return await reply(Lang.needlink, '❓');
 
-var TKDESC = ''
-if (Build.LANG == 'SI') TKDESC = '╔═══════❪💃🏻♥️❫\n\n▷ *Queen Amdi Tiktok Downloader* ◁\n\n╚═════≪ •❈• ≫═════\nTiktok වර්ගය තෝරන්න :'
-if (Build.LANG == 'EN') TKDESC = '╔═══════❪💃🏻♥️❫\n\n▷ *Queen Amdi Tiktok Downloader* ◁\n\n╚═════≪ •❈• ≫═════\nSelect the tiktok type :'
+    const tkData = await tiktok({ url: input });
 
-var WMARK = ''
-if (Build.LANG == 'SI') WMARK = 'Tiktok සලකුණ සමඟ'
-if (Build.LANG == 'EN') WMARK = 'With tiktok watermark'
+    const TKText = \\\${tkData.video.signature}\\\\n\n🎵 Music: ${tkData.audio.name}\n\n👨🏻‍🎤 Author: ${tkData.owner.name}\n\n👤 Username: ${tkData.owner.username}
 
-var WOMARK = ''
-if (Build.LANG == 'SI') WOMARK = 'Tiktok සලකුණ නොමැතිව'
-if (Build.LANG == 'EN') WOMARK = 'Without tiktok watermark'
-
-Amdi.operate({ pattern: 'tiktok ?(.*)', fromMe: LOL, desc: Lang.TIKTOK_DESC,  deleteCommand: false}, (async (message, match) => {
-    await QueenAmdi.amdi_setup()
-    const tkurl = match[1]
-
-    if (tkurl === '') return await message.client.sendMessage(message.jid,Lang.INVALID_TK, {quoted: message.data});
-
-    var BUTTHANDLE = '';
-    if (/\[(\W*)\]/.test(Build.HANDLERS)) {
-        BUTTHANDLE = Build.HANDLERS.match(/\[(\W*)\]/)[1][0];
-    } else {
-        BUTTHANDLE = '.';
-    }
-
-    const buttons = [
-        {buttonId: BUTTHANDLE + 'qatkwmark' + tkurl, buttonText: {displayText: WMARK }, type: 1},
-        {buttonId: BUTTHANDLE + 'qatkwomark' + tkurl, buttonText: {displayText: WOMARK }, type: 1}
+    const sections = [
+        {
+            title: "Tiktok Information",
+            rows: [
+                { title: "ℹ Tiktok Information", rowId: ${prefix}tkinfo ${input} }
+            ]
+        },
+        {
+            title: "Tiktok Video",
+            rows: [
+                { title: "🔖 With Watermark", rowId: ${prefix}tkdl mark ${input} },
+                { title: "📼 No-Watermark", rowId: ${prefix}tkdl nomark ${input} }
+            ]
+        },
+        {
+            title: "Tiktok Audio",
+            rows: [
+                { title: "🎶 Audio File", rowId: ${prefix}tkdl audio ${input} },
+                { title: "📁 Document File", rowId: ${prefix}tkdl doc ${input} }
+            ]
+        }
     ]
-    const buttonMessage = {
-        contentText: TKDESC,
-        footerText: 'ǫᴜᴇᴇɴ ᴀᴍᴅɪ © 🇵‌🇺‌🇧‌🇱‌🇮‌🇨‌ ᴇᴅɪᴛɪᴏɴ',
-        buttons: buttons,
-        headerType: 1
-    }
 
-    await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage, {quoted: message.data});
-}))
+    var listInfo = {}
+    listInfo.title = "🎞 Tiktok Downloader"
+    listInfo.text = TKText
+    listInfo.buttonTXT = "Download now"
 
-
-Amdi.operate({ pattern: 'qatkwmark ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
-    await QueenAmdi.amdi_setup()
-    const tkurl = match[1]
-
-    const tiktok = await QueenAmdi.TiktokDownloader(tkurl)
-
-    var downloading = await message.client.sendMessage(message.jid,Lang.DLOAD_TK,MessageType.text, {quoted: message.data});
-    const profileBuffer = await axios.get(tiktok.result.watermark, {responseType: 'arraybuffer'})
-
-    await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true});
-    var uploading = await message.client.sendMessage(message.jid,Lang.UPLOADING_TK,MessageType.text, {quoted: message.data});
-    await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {caption: Build.CAP, quoted: message.data, thumbnail: qathmub })
-    return await message.client.deleteMessage(message.jid, {id: uploading.key.id, remoteJid: message.jid, fromMe: true})
-}))
-
-Amdi.operate({ pattern: 'qatkwomark ?(.*)', fromMe: LOL, deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
-    await QueenAmdi.amdi_setup()
-    const tkurl = match[1]
-
-    const tiktok = await QueenAmdi.TiktokDownloader(tkurl)
-
-    var downloading = await message.client.sendMessage(message.jid,Lang.DLOAD_TK,MessageType.text, {quoted: message.data});
-    const profileBuffer = await axios.get(tiktok.result.nowatermark, {responseType: 'arraybuffer'})
-
-    await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true});
-    var uploading = await message.client.sendMessage(message.jid,Lang.UPLOADING_TK,MessageType.text, {quoted: message.data});
-    await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {caption: Build.CAP, quoted: message.data, thumbnail: qathmub })
-    return await message.client.deleteMessage(message.jid, {id: uploading.key.id, remoteJid: message.jid, fromMe: true})
-}))
+    return await sendListMsg(listInfo, sections);
+}));
 
 AMDI({ cmd: ["mediafire", "mf", "mfire"], desc: Lang.MEDIAFIRE_DESC, type: "download", react: "🔥" }, (async (amdiWA) => {
     let { footerTXT, input, react, reply, sendDocument } = amdiWA.msgLayout;
