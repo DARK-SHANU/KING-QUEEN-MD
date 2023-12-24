@@ -11,7 +11,7 @@ A WhatsApp based third party application that provide many services with a real-
 <p align="center"> 
 <u>🤖ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ🤖</u>
 
-<p align = center>   <img src="https://telegra.ph/file/7accae80e62718200df1b.jpg" alt="GIF" width="600" height="300"/> </p>
+<p align = center>   <img src="https://telegra.ph/file/272002082c0020ef0db34.jpg" alt="GIF" width="400" height="400"/> </p>
 
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=Q30fa02&center=true&vCenter=true&multiline=false&lines=KING+QUEEN-MD+WHATSAPP+BOT" alt="">
