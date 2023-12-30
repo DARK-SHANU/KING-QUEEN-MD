@@ -1,4 +1,4 @@
-# KING QUEEN-MD
+# KING QUEEN-MD         
 
 <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Rubik+Dirt&size=65&pause=1000&color=F72c3F&background=FF20A500&center=true&vCenter=true&width=1000&height=150&lines=𝙳𝚁𝙰𝙺+𝚂𝙷𝙰𝙽𝚄;New+Beginning+Developer;2+0+2+4;" alt="Typing SVG" 
@@ -15,6 +15,8 @@ A WhatsApp based third party application that provide many services with a real-
 
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=Q30fa02&center=true&vCenter=true&multiline=false&lines=KING+QUEEN-MD+WHATSAPP+BOT" alt="">
+
+<p align="center"><img src="https://profile-counter.glitch.me/{DARK-SHANU}/count.svg" alt="DARK-SHANU :: Visitor's Count" /></p>
 
 <p align="center">
  <a href="https://github.com/DARK-SHANU/"><img title="Author" src="https://img.shields.io/badge/CREATOR-DRAK SHANU OFFICIAL²⁰²³-green.svg?style=for-the-badge&logo=github"></a>
