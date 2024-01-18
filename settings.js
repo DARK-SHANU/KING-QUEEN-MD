@@ -2,12 +2,12 @@ const chalk = require("chalk")
 const fs = require("fs")
 
 //aumto presence update
-global.autoReading = false //auto recording (true to on, false to off)
+global.autoReading = true //auto recording (true to on, false to off)
 global.autoTyping = false //auto tying (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
 global.autoblockmorroco = false //auto block 212 (true to on, false to off)
 global.autokickmorroco = false //auto kick 212 (true to on, false to off) 
-global.antispam = false //auto kick spammer (true to on, false to off)
+global.antispam = true //auto kick spammer (true to on, false to off)
 
 
 //if api key expire, u can generate one from here: https://beta.openai.com/account/api-keys
@@ -22,26 +22,26 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.ownernomer = "916909137213" //ur owner number2
-global.ownername = "🦄Dream Guy Xeon" //ur owner name
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.ownernomer = "94755571294" //ur owner number2
+global.ownername = "DARK SHANU" //ur owner name
+global.ytname = "YT: DARK HITLER" //ur yt chanel name
+global.socialm = "GitHub: DARK-SHANU" //ur github or insta name
+global.location = "Srilanka, Colombo" //ur location
 
 //new
-global.botname = "Cheems Bot MD V9"
-global.ownernumber = '916909137213'
-global.ownername = '🦄드림 가이 Xeon'
-global.ownerNumber = ["916909137213@s.whatsapp.net"]
-global.ownerweb = "https://youtube.com/@DGXeon"
-global.websitex = "https://youtube.com/@DGXeon"
-global.wagc = "https://chat.whatsapp.com/Kjm8rnDFcpb04gQNSTbW2d"
-global.themeemoji = '🪀'
-global.wm = "Xeon Bot Inc."
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
-global.packname = "Sticker By"
-global.author = "🦄드림 가이 Xeon\n\n+916909137213"
-global.creator = "916909137213@s.whatsapp.net"
+global.botname = "😈😈DARK HITLER MD V9😈😈"
+global.ownernumber = '94755571294'
+global.ownername = '☠️☠️DARK SHANU☠️☠️'
+global.ownerNumber = ["94755571294@s.whatsapp.net"]
+global.ownerweb = "https://youtube.com/@DARK HITLER"
+global.websitex = "https://youtube.com/@DARK HITLER"
+global.wagc = "https://chat.whatsapp.com/IhdYl2YrMa1A8Kir4OQU77"
+global.themeemoji = '💃'
+global.wm = "DARK HITLER Inc."
+global.botscript = 'https://github.com/DARK-SHANU/KING-QUEEN-MD' //script link
+global.packname = "Sticker By DARK HITLER MD"
+global.author = "👨‍💻DARK SHANU\n\n+94755571294"
+global.creator = "94755571294@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.sessionName = 'session'
 global.hituet = 0
